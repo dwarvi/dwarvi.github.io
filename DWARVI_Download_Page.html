@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <meta name="description" content="Download DWARVI Calculator for Android.">
+  <title>DWARVI Calculator — Android Download</title>
+  <style>
+    :root { color-scheme: dark; --bg:#0b1020; --panel:#121a2c; --ink:#f5f7fb; --muted:#b4bfd3; --accent:#8cf0c8; --line:#28334a; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; background:radial-gradient(ellipse at top,#1c2c47 0,#0b1020 55%); color:var(--ink); line-height:1.55; }
+    a { color:var(--accent); }
+    .wrap { width:min(920px, calc(100% - 32px)); margin:auto; }
+    header { padding:28px 0; display:flex; align-items:center; gap:12px; }
+    .logo { width:48px;height:48px;border-radius:15px;display:grid;place-items:center;background:linear-gradient(135deg,#8cf0c8,#7bb5ff);color:#101827;font-weight:900;font-size:21px; }
+    .brand { font-size:1.15rem;font-weight:800;letter-spacing:.08em; }
+    .hero { padding:48px 0 36px; display:grid; grid-template-columns:1.3fr .7fr; gap:30px; align-items:center; }
+    .eyebrow { color:var(--accent);font-weight:750;text-transform:uppercase;letter-spacing:.13em;font-size:.78rem; }
+    h1 { font-size:clamp(2.3rem,6vw,4.2rem); line-height:1.02; margin:12px 0 18px; letter-spacing:-.045em; }
+    .lead { color:var(--muted);font-size:1.08rem;max-width:58ch; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; margin:26px 0 14px; }
+    .btn { display:inline-flex;align-items:center;justify-content:center;padding:13px 18px;border-radius:12px;font-weight:800;text-decoration:none;min-height:48px; }
+    .primary { background:var(--accent);color:#102033; }
+    .secondary { border:1px solid #465570;color:var(--ink); }
+    .small { font-size:.85rem;color:var(--muted); }
+    .app-card,.panel { background:rgba(18,26,44,.9);border:1px solid var(--line);border-radius:22px;padding:24px;box-shadow:0 18px 60px #0003; }
+    .app-icon { width:112px;height:112px;margin:2px auto 16px;border-radius:28px;background:linear-gradient(145deg,#8cf0c8,#6fa9ff);display:grid;place-items:center;color:#102033;font-size:42px;font-weight:900;box-shadow:0 12px 35px #8cf0c822; }
+    .app-card h2 { text-align:center;margin:0;font-size:1.3rem; }
+    .app-card p { text-align:center;color:var(--muted);margin:5px 0 0; }
+    .facts { display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:20px; }
+    .fact { background:#0c1323;border-radius:12px;padding:12px 8px;text-align:center; }
+    .fact b { display:block;font-size:1rem; }
+    .fact span { display:block;font-size:.76rem;color:var(--muted);margin-top:3px; }
+    section { padding:18px 0; }
+    h2.section-title { font-size:1.55rem;letter-spacing:-.02em;margin:0 0 12px; }
+    .grid { display:grid;grid-template-columns:repeat(2,1fr);gap:14px; }
+    .panel h3 { margin:0 0 7px;font-size:1.02rem; }
+    .panel p,.panel li { color:var(--muted); }
+    ol,ul { padding-left:22px; }
+    li { margin:7px 0; }
+    .notice { border-left:3px solid var(--accent);padding:12px 15px;background:#14263a;border-radius:0 12px 12px 0;color:var(--muted); }
+    footer { border-top:1px solid var(--line);margin-top:30px;padding:24px 0 40px;color:var(--muted);font-size:.88rem; }
+    code { overflow-wrap:anywhere;color:#e3f4ff; }
+    @media(max-width:700px) { .hero { grid-template-columns:1fr;padding-top:24px; } .app-card { max-width:420px;width:100%;margin:auto; } .grid { grid-template-columns:1fr; } .facts { grid-template-columns:repeat(3,1fr); } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo" aria-hidden="true">D</div>
+      <div class="brand">DWARVI</div>
+    </header>
+
+    <main>
+      <div class="hero">
+        <div>
+          <div class="eyebrow">Android app</div>
+          <h1>DWARVI<br>Calculator</h1>
+          <p class="lead">A handy calculator for your everyday calculations. Download the Android APK directly from the official DWARVI GitHub release.</p>
+          <div class="actions">
+            <a class="btn primary" id="downloadButton" href="https://github.com/YOUR-GITHUB-USERNAME/dwarvi-calculator/releases/latest/download/DWARVI-release.apk">Download APK ↓</a>
+            <a class="btn secondary" id="releaseButton" href="https://github.com/YOUR-GITHUB-USERNAME/dwarvi-calculator/releases/latest">View release details</a>
+          </div>
+          <p class="small">Version 1.0.0 · Android 6.0 or later (minimum SDK 23) · APK download</p>
+          <p class="small">No Google Play account is required to download this APK.</p>
+        </div>
+        <aside class="app-card" aria-label="App details">
+          <div class="app-icon" aria-hidden="true">D</div>
+          <h2>DWARVI Calculator</h2>
+          <p>Direct Android download</p>
+          <div class="facts">
+            <div class="fact"><b>1.0.0</b><span>Version</span></div>
+            <div class="fact"><b>Android</b><span>Platform</span></div>
+            <div class="fact"><b>Free</b><span>Download</span></div>
+          </div>
+        </aside>
+      </div>
+
+      <section>
+        <h2 class="section-title">How to install</h2>
+        <div class="panel">
+          <ol>
+            <li>Tap <strong>Download APK</strong> above and download the file from the DWARVI GitHub Releases page.</li>
+            <li>Open the downloaded <code>DWARVI-release.apk</code> file.</li>
+            <li>If Android asks, allow your browser or file manager to install apps from this source. The setting may be called <strong>Install unknown apps</strong>.</li>
+            <li>Return to the installer and tap <strong>Install</strong>.</li>
+            <li>When installation finishes, open DWARVI Calculator.</li>
+          </ol>
+          <div class="notice"><strong>Safety note:</strong> Install APK files only when you trust the publisher. Android may show a security warning because this app is installed outside Google Play. Never disable Play Protect globally just to install an APK.</div>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Release information</h2>
+        <div class="grid">
+          <div class="panel">
+            <h3>Current release</h3>
+            <p><strong>Version:</strong> 1.0.0</p>
+            <p><strong>Package ID:</strong> <code>com.dwarvi.calculator</code></p>
+            <p><strong>Minimum Android:</strong> Android 6.0 (API 23)</p>
+            <p><strong>Release notes:</strong> Initial public distribution build.</p>
+          </div>
+          <div class="panel">
+            <h3>Verify the download</h3>
+            <p>After downloading, the APK's SHA-256 checksum should match this value:</p>
+            <p><code>0f0fac82afa635b7543b4cb75428300aa14b6903f443f7ab6504ed0c98869128</code></p>
+            <p class="small">A checksum helps detect file changes; it does not by itself prove who published the file.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Support and updates</h2>
+        <div class="panel">
+          <p>For new versions, return to the official DWARVI Releases page. Before installing an update, make sure it is published by the same developer and signed with the same app-signing key.</p>
+          <p>Support contact: <strong>ADD-YOUR-SUPPORT-EMAIL-OR-LINK</strong></p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© DWARVI. App availability and compatibility may vary by device. This page is a direct-download page, not a Google Play listing.</p>
+      <p><strong>Publisher setup required:</strong> replace <code>YOUR-GITHUB-USERNAME</code> in the two GitHub links and replace the support placeholder before publishing this page.</p>
+    </footer>
+  </div>
+</body>
+</html>
